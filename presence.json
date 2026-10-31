@@ -1,0 +1,45 @@
+{
+  "client_id": "1563857609738690560",
+  "large_image": "horizon",
+  "large_text": "Horizon",
+  "buttons": [
+    {
+      "label": "Horizon Discord RPC",
+      "url": "https://github.com/qu1ckmeow/horizon-discord-rpc"
+    },
+    {
+      "label": "Horizon",
+      "url": "https://github.com/horizon-rust/horizon"
+    }
+  ],
+  "instance_icon": {
+    "enabled": true,
+    "texture_url": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.1/assets/minecraft/textures/{kind}/{name}.png",
+    "colour_url": "https://singlecolorimage.com/get/{hex}/64x64.png",
+    "overrides": {}
+  },
+  "launcher": {
+    "details": "",
+    "state": "{username} looking at the main menu"
+  },
+  "game": {
+    "details": "Minecraft: Rust Edition",
+    "state": "{username} in the menus"
+  },
+  "game_single": {
+    "details": "Minecraft: Rust Edition",
+    "state": "Playing single world"
+  },
+  "game_server": {
+    "details": "Minecraft: Rust Edition",
+    "state": "Playing {server}"
+  },
+  "processes": {
+    "launcher": ["Horizon.exe", "horizon-launcher.exe"],
+    "game": ["horizon-client.exe"]
+  },
+  "poll_seconds": 2,
+  "refresh_seconds": 60,
+  "retry_seconds": 15,
+  "show_elapsed": false
+}
